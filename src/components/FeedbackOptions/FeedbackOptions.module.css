@@ -1,0 +1,54 @@
+.optionsContainer {
+  max-width: 450px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.btn {
+  display: inline-block;
+  min-width: 150px;
+  padding: 10px;
+  margin: 5px;
+
+  font-weight: 900;
+
+  border-radius: 7px;
+  border: none;
+  outline: none;
+}
+
+.good {
+  composes: btn;
+  color: #388e3c;
+  background-color: #b2e7b3;
+  border: 1px solid olivedrab;
+}
+
+.good:hover {
+  color: #a5d6a7;
+  background-color: olivedrab;
+}
+
+.neutral {
+  composes: btn;
+  color: silver;
+  background-color: #807f7c;
+  border: 1px solid darkgrey;
+}
+
+.neutral:hover {
+  color: #807f7c;
+  background-color: darkgrey;
+}
+
+.bad {
+  composes: btn;
+  color: #ef5350;
+  background-color: #ffcdd2;
+  border: 1px solid #ef5350;
+}
+
+.bad:hover {
+  color: #ffcdd2;
+  background-color: #ef5350;
+}
